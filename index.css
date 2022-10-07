@@ -60,8 +60,12 @@ input:focus,input:active{
     color:rgba(255,149,0,1) ;
 }
 
+#city{
+    font-size: 1.5rem;
+}
+
 .temp{
-    font-size: 8rem;
+    font-size: 6rem;
     color: white;
     text-shadow: .3rem.3rem 1rem rgba(255, 255, 255, 0.3),-.3rem -.3rem 1rem rgba(255, 255, 255, 0.3);
 }
@@ -93,4 +97,8 @@ transition: all .5s;
 .box-1:hover{
     transform: translateY(-2px);
     
+    }
+
+    .mymap{
+        opacity: .9;
     }
