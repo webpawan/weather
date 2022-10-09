@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
 .bg{
     height: 100%;
     background: rgb(81,27,117);
@@ -23,7 +26,6 @@ background: linear-gradient(45deg, rgba(81,27,117,1) 0%, rgba(255,108,108,1) 56%
     border-radius: 1rem;
     box-shadow: .5rem .5rem 1rem rgba(0, 0, 0, 0.178);
 transition: all .5s;
-
 transform: translateY(2px);
 
 }
@@ -61,11 +63,11 @@ input:focus,input:active{
 }
 
 #city{
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
 }
 
 .temp{
-    font-size: 6rem;
+    /* font-size: 6rem; */
     color: white;
     text-shadow: .3rem.3rem 1rem rgba(255, 255, 255, 0.3),-.3rem -.3rem 1rem rgba(255, 255, 255, 0.3);
 }
@@ -102,3 +104,16 @@ transition: all .5s;
     .mymap{
         opacity: .9;
     }
+
+
+
+      @media only screen and(max-width:450px){
+.centerDiv{
+    background-color: red !important;
+}
+
+body{
+    background-color: red;
+}
+
+      } 
