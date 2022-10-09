@@ -21,7 +21,7 @@ let weatherdata = await apidata.json();
 let mapshow = document.getElementById('mymap');
 document.getElementById('temp').innerHTML = `${weatherdata.main.temp}&#176;c`;
 document.getElementById('city').innerHTML = `city - ${weatherdata.name}`;
-mapshow.innerHTML = `<iframe class="px-2" style='height: 50vh; width: 100%;' frameborder="0" scrolling="no" src="https://maps.google.com/maps?q=${weatherdata.name}&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>`
+mapshow.innerHTML = `<iframe class="px-2" style='height: 50vh; width: 100%;' class="rounded" frameborder="0" scrolling="no" src="https://maps.google.com/maps?q=${weatherdata.name}&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>`
 document.getElementById('max').innerHTML = ` max -> ${weatherdata.main.temp_max}`;
 document.getElementById('min').innerHTML = ` min -> ${weatherdata.main.temp_min}`;
 } catch (error) {
